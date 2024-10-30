@@ -1,0 +1,22 @@
+{
+    "name": "meta-auth",
+    "description": "Authenticate WordPress users with their crypto wallet.",
+    "type": "wordpress-plugin",
+    "require": {
+        "sijad/laravel-ecrecover": "^0.0.5",
+        "firebase/php-jwt": "^6.0"
+    },
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "AdAstraCrypto",
+            "email": "info@adastracrypto.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Januus\\": "vendor/januus/src"
+        }
+    }
+}

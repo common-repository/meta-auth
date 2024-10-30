@@ -1,0 +1,16 @@
+{
+    "name": "sijad/laravel-ecrecover",
+    "description": "Ecrecover functions of Ethereum written for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sijad\\LaravelEcrecover\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "kornrunner/keccak": "^1.0",
+        "ext-gmp": "*"
+    }
+}
